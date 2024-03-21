@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket" {
-    bucket = "cyberspeed-terraform-state-backend"
+    bucket = "cyberspeed-jenkins-state-backend"
     versioning {
         enabled = true
     }
@@ -23,7 +23,7 @@ resource "aws_s3_bucket" "bucket" {
 }
 
 resource "aws_dynamodb_table" "terraform-lock" {
-    name           = "cyberspeed_terraform_state"
+    name           = "cyberspeed_jenkins_state_dynamo"
     read_capacity  = 5
     write_capacity = 5
     hash_key       = "LockID"

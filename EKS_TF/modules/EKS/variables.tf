@@ -15,7 +15,7 @@ variable "type" {
 variable "cluster_name" {
   type = string
   description = "Project Name"
-  default = ["cyberspeed_cluster"]
+  default = ["cyberspeedcluster"]
 }
 
 # Public subnet AZ1

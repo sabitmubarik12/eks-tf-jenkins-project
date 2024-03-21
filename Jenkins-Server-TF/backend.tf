@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = "cyberspeed-terraform-state-backend"
+    bucket         = "cyberspeed-jenkins-state-backend"
     region         = "us-east-1"
     key            = "End-to-End-Kubernetes-Three-Tier-DevSecOps-Project/Jenkins-Server-TF/terraform.tfstate"
-    dynamodb_table = "cyberspeed_terraform_state"
+    dynamodb_table = "cyberspeed_jenkins_state_dynamo"
     encrypt        = true
   }
   required_version = ">=0.13.0"
