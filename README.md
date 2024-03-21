@@ -59,6 +59,6 @@ Gitlab for a fully automated workflow along with KLERA tools! For future referen
 📈 The journey covered everything from setting up tools to deploying a Three-Tier app, ensuring data persistence, and implementing CI/CD pipelines.
 
 Getting Started
-To get started with this project, refer to my comprehensive guide attached in the zip file that walks you through IAM user setup, infrastructure provisioning, CI/CD pipeline configuration, EKS cluster creation, and more.
+To get started with this project, refer to my comprehensive guide/documentation attached in the zip file that walks you through IAM user setup, infrastructure provisioning, CI/CD pipeline configuration, EKS cluster creation, and more.
 
 Hoping for the best! 🚀
