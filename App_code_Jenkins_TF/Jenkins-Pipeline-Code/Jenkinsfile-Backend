@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git credentialsId: 'GITHUB', url: 'https://github.com/Abiolamajek/DevSecOps-Kubernetes-Three-Tier-Project-using-AWS-EKS-ArgoCD-Prometheus-Grafana-and-Jenkins.git'
+                git credentialsId: 'GITHUB', url: 'https://github.com/sabitmubarik12/eks-tf-jenkins-project.git'
             }
         }
         stage('Sonarqube Analysis') {
@@ -83,20 +83,20 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git credentialsId: 'GITHUB', url: 'https://github.com/Abiolamajek/DevSecOps-Kubernetes-Three-Tier-Project-using-AWS-EKS-ArgoCD-Prometheus-Grafana-and-Jenkins.git'
+                git credentialsId: 'GITHUB', url: 'https://github.com/sabitmubarik12/eks-tf-jenkins-project.git'
             }
         }
         stage('Update Deployment file') {
             environment {
-                GIT_REPO_NAME = "DevSecOps-Kubernetes-Three-Tier-Project-using-AWS-EKS-ArgoCD-Prometheus-Grafana-and-Jenkins"
-                GIT_USER_NAME = "Abiolamajek"
+                GIT_REPO_NAME = "eks-tf-jenkins-project"
+                GIT_USER_NAME = "sabitmubarik12"
             }
             steps {
                 dir('Kubernetes-Manifests-file/Backend') {
                     withCredentials([string(credentialsId: 'github', variable: 'GITHUB_TOKEN')]) {
                         sh '''
-                            git config user.email "abiolamajekodunmi20@gmail.com"
-                            git config user.name "Abiolamajek"
+                            git config user.email "sabit_mubarik@yahoo.com"
+                            git config user.name "sabitmubarik12"
                             BUILD_NUMBER=${BUILD_NUMBER}
                             echo $BUILD_NUMBER
                             imageTag=$(grep -oP '(?<=backend:)[^ ]+' deployment.yaml)
