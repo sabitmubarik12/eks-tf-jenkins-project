@@ -4,7 +4,8 @@ Welcome to the Assessment based Three-Tier Web Application Deployment project! ð
 
 This repository hosts the implementation of a Three-Tier Web App using ReactJS, NodeJS, and MongoDB, deployed on AWS EKS. The project covers a wide range of tools and practices for a robust and scalable DevOps setup.
 
-Table of Contents
+Table of Contents:
+
 Application Code
 Jenkins Pipeline Code
 Jenkins Remote State Code
