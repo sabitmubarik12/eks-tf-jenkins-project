@@ -41,6 +41,7 @@ Explore the EKS_TF directory to find Terraform scripts for setting up the EKS Cl
 
 ##### 🛠️ Tools Explored:
 
+OKTA for Single Sign-On (SSO) and Priviledged Access Management (PAM)
 Terraform & AWS CLI for AWS infrastructure
 Jenkins, Sonarqube, ValdiIAC/Terrascan, Terraform, Kubectl, and more for CI/CD setup
 Helm, Prometheus, and Grafana for Monitoring
