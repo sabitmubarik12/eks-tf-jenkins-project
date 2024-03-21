@@ -6,13 +6,14 @@ This repository hosts the implementation of a Three-Tier Web App using ReactJS, 
 
 Table of Contents:
 
-Application Code
-Jenkins Pipeline Code
-Jenkins Remote State Code
-Jenkins Server Terraform
-Kubernetes Manifests Files
-EKS Remote State Code
-EKS Terraform Code
+- ![#1589F0] Application Code
+- ![#1589F0] Jenkins Pipeline Code
+- ![#1589F0] Jenkins Remote State Code
+- ![#1589F0] Jenkins Server Terraform
+- ![#1589F0] Kubernetes Manifests Files
+- ![#1589F0] EKS Remote State Code
+- ![#1589F0] EKS Terraform Code
+
 Project Details
 
 Application Code
