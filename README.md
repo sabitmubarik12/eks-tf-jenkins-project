@@ -1,4 +1,4 @@
-Assessment based Three-Tier Web Application Deployment on AWS EKS using AWS EKS, ArgoCD, Prometheus, Grafana, ELK stack, Sonarqube, terrascan/validiac and Jenkins.
+# Assessment based Three-Tier Web Application Deployment on AWS EKS using AWS EKS, ArgoCD, Prometheus, Grafana, ELK stack, Sonarqube, terrascan/validiac and Jenkins.
 
 Welcome to the Assessment based Three-Tier Web Application Deployment project! 🚀
 
